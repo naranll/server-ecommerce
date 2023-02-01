@@ -13,15 +13,6 @@ app.use(cors());
 app.use(express.json());
 
 //muteable immutable
-// const categories = [
-//     { category: "appliances", id: "appliances" },
-//     { category: "computers & tablets", id: "tablets" },
-//     { category: "pad", id: "pad" },
-//     { category: "Apple", id: "apple" },
-//     { category: "headphones", id: "headphones" },
-//     { category: "gaming console", id: "gaming" },
-//     { category: "telescope", id: "telescope" },
-// ];
 
 app.get("/products", (request, response) => {
     console.log("get products requesting");
